@@ -1,1 +1,1 @@
-Click the Guide 
+Click the Guide.txt
