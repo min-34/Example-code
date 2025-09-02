@@ -33,24 +33,3 @@ const titles = ["Hello", "Welcome", "HI", "Blop!"];
       document.title = titles[index];
       index = (index + 1) % titles.length;
     }, 1000);
-
-
-this is the full raw example result 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Changing Title</title>
-  <script>
-    const titles = ["Hello", "Welcome", "HI", "Blop!"];
-     let index = 0;
-    setInterval(() => {
-      document.title = titles[index];
-      index = (index + 1) % titles.length;
-    }, 1000);
-  </script>
-</head>
-</html>
-
-
