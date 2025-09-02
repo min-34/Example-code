@@ -6,7 +6,7 @@ how to make the title to change between different words/messages??? :D
 index is like a pointer At the start, it’s 0, meaning we show the first item ("Hello")
 
 3. after that we need to change the title every second, for example like this (setInterval(() => {...}, 1000);)
-setInterval Run the code inside every 1000 milliseconds (1 second)
+setInterval Run the code inside every 1000 milliseconds (1 second) but if you want it faster or slower, just change the 1000 (milliseconds). For example, 2000 makes it every 2 seconds
 
 4. after that setInterval we need to Set the page title inside the {...} , for example like this (document.title = titles[index];)
 This replaces the text on the browser tab with the current item in the list
