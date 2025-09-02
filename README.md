@@ -23,8 +23,6 @@ const titles = ["Hello", "Welcome", "HI", "Blop!"];
 index + 1 moves to the next position
 % titles.length makes sure we loop back to 0 when we reach the end
 
-
-
 now it's done ! ! !, make sure your result is like this 
 
 const titles = ["Hello", "Welcome", "HI", "Blop!"];
